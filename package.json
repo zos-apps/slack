@@ -20,7 +20,22 @@
         "height": 600
       },
       "resizable": true
-    }
+    },
+    "about": "Team communication and collaboration platform.",
+    "help": [
+      "Join channels",
+      "Send messages",
+      "Share files with +"
+    ],
+    "docs": "https://zos-apps.github.io/slack",
+    "site": "https://github.com/zos-apps/slack",
+    "features": [
+      "Channels",
+      "Direct messages",
+      "File sharing",
+      "Integrations",
+      "Search"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "slack",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

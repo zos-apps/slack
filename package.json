@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/slack",
+  "name": "@zos-apps/slack",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "💼",
     "category": "social",
     "description": "Business communication and collaboration",
-    "permissions": ["network"],
+    "permissions": [
+      "network"
+    ],
     "window": {
-      "defaultSize": { "width": 900, "height": 600 },
+      "defaultSize": {
+        "width": 900,
+        "height": 600
+      },
       "resizable": true
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Business communication and collaboration",
+  "homepage": "https://zos-apps.github.io/slack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/slack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/slack/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "slack",
+    "macos",
+    "desktop"
+  ]
 }

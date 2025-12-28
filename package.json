@@ -35,7 +35,26 @@
       "File sharing",
       "Integrations",
       "Search"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/slack"
+    },
+    "featured": false,
+    "tags": [
+      "social",
+      "communication",
+      "slack"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/slack/issues",
+    "changelog": "https://github.com/zos-apps/slack/releases"
   },
   "scripts": {
     "build": "tsup",

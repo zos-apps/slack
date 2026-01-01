@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface SlackProps {
   onClose: () => void;
@@ -34,7 +34,7 @@ const mockMessages: Message[] = [
   { id: '4', author: 'Dev Bot', avatar: '🤖', content: '✅ Build #1234 passed on main', time: '9:30 AM' },
 ];
 
-const Slack: React.FC<SlackProps> = ({ onClose }) => {
+const Slack: React.FC<SlackProps> = ({ onClose: _onClose }) => {
   const [channels] = useState(mockChannels);
   const [messages] = useState(mockMessages);
   const [selectedChannel, setSelectedChannel] = useState('1');
